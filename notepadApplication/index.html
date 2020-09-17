@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +7,7 @@
     <title>Notes WebApp</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link rel="stylesheet" href="/css/style.css"/>
+        <link rel="stylesheet" href="/notepadApplication/css/style.css"/>
 </head>
 
 <body>
@@ -44,15 +43,17 @@
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="/photos/notes1.jpg" class="d-block w-100" alt="notes1" width="50%" height="50%">
+            <img src="/notepadApplication/photos/notes1.jpg" class="d-block w-100" alt="notes1" width="50%" height="50%">
             <div class="carousel-caption d-none d-md-block">
                 <div class="container my-3">
                     <h1 class="text-dark">Welcome</h1>
                     <div class="card">
                         <div class="card-body">
+                            <h5 class="card-title text-dark">Add Title</h5>
+                            <textarea class="form-control" id="addTitle" rows="1"></textarea>
                             <h5 class="card-title text-dark">Add a note</h5>
                             <div class="form-group">
-                                <textarea class="form-control" id="addTxt" rows="3"></textarea>
+                                <textarea class="form-control" id="addTxt" rows="5"></textarea>
                             </div>
                             <button class="btn btn-primary" id="addBtn">Add Note</button>
                         </div>
@@ -65,7 +66,7 @@
             </div>
           </div>
           <div class="carousel-item">
-            <img src="/photos/notes3.jpg" class="d-block w-100" alt="notes2" width="20%" height="10%">
+            <img src="/notepadApplication/photos/notes3.jpg" class="d-block w-100" alt="notes2" width="20%" height="10%">
              
             <div class="carousel-caption d-none d-md-block">
                 
